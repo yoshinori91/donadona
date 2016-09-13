@@ -8,18 +8,14 @@
     "webpack": "webpack ./index.js --output-filename ./bundle.js",
     "build": "npm run tsc && npm run webpack"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/armorik83/qiita-npm-i-angular2.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/armorik83/qiita-npm-i-angular2/issues"
   },
-  "homepage": "https://github.com/armorik83/qiita-npm-i-angular2#readme",
   "devDependencies": {
+    "@angular/forms": "^2.0.0-rc.6",
     "@angular/router": "^3.0.0-rc.2",
     "typescript": "^1.8.10",
     "webpack": "^1.13.1"
