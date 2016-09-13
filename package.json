@@ -1,0 +1,37 @@
+{
+  "name": "qiita-npm-i-angular2",
+  "version": "1.0.0",
+  "description": "[npm i angular2してHello World!するところまで【改】](http://qiita.com/armorik83/items/ae737ab584012a0f5876)で使うサンプルコード用リポジトリ。",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -p .",
+    "webpack": "webpack ./index.js --output-filename ./bundle.js",
+    "build": "npm run tsc && npm run webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armorik83/qiita-npm-i-angular2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armorik83/qiita-npm-i-angular2/issues"
+  },
+  "homepage": "https://github.com/armorik83/qiita-npm-i-angular2#readme",
+  "devDependencies": {
+    "@angular/router": "^3.0.0-rc.2",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "@angular/common": "^2.0.0-rc.5",
+    "@angular/compiler": "^2.0.0-rc.5",
+    "@angular/core": "^2.0.0-rc.5",
+    "@angular/platform-browser": "^2.0.0-rc.5",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.5",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.0.0-beta.6",
+    "zone.js": "^0.6.12"
+  }
+}
